@@ -1,8 +1,8 @@
 import streamlit as st
 import plotly.graph_objects as go
-from utils.data_loader import carregar_dados
-from utils.filters import aplicar_filtros
-from utils.forecasting import previsao_baseline
+from ..utils.data_loader import carregar_dados
+from ..utils.filters import aplicar_filtros
+from ..utils.forecasting import previsao_baseline
 
 st.title("🤖 Previsão de Demanda")
 

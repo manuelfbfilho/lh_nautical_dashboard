@@ -1,9 +1,9 @@
 import streamlit as st
 import plotly.express as px
-from utils.data_loader import carregar_dados
-from utils.filters import aplicar_filtros
-from utils.metrics import calcular_kpis
-from utils.ui import card
+from ..utils.data_loader import carregar_dados
+from ..utils.filters import aplicar_filtros
+from ..utils.metrics import calcular_kpis
+from ..utils.ui import card
 
 st.title("📊 Executive Dashboard")
 
