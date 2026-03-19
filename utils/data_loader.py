@@ -6,8 +6,8 @@ def carregar_dados():
     # =========================
     # 1. Carregar dados
     # =========================
-    vendas = pd.read_csv("data/raw/vendas_2023_2024.csv")
-    produtos = pd.read_csv("data/processed/produtos_clean.csv")
+    vendas = pd.read_csv("../data/raw/vendas_2023_2024.csv")
+    produtos = pd.read_csv("../data/processed/produtos_clean.csv")
 
     # =========================
     # 2. Padronizar colunas
@@ -39,7 +39,7 @@ def carregar_dados():
     # 5. Clientes (CORRETO AGORA)
     # =========================
     try:
-        clientes = pd.read_json("data/raw/clientes_crm.json")
+        clientes = pd.read_json("../data/raw/clientes_crm.json")
 
         # Renomear corretamente
         clientes = clientes.rename(columns={
