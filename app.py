@@ -1,4 +1,8 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parent))
 
 st.set_page_config(
     page_title="LH Nautical Analytics",

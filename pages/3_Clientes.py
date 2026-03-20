@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
-from ..utils.data_loader import carregar_dados
-from ..utils.filters import aplicar_filtros
+from utils.data_loader import carregar_dados
+from utils.filters import aplicar_filtros
 
 st.title("👥 Clientes")
 

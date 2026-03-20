@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
-from ..utils.data_loader import carregar_dados
-from ..utils.clustering import segmentar_clientes
+from utils.data_loader import carregar_dados
+from utils.clustering import segmentar_clientes
 
 st.title("📊 Segmentação de Clientes")
 
